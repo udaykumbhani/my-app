@@ -1,0 +1,159 @@
+.circle{
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    width: 48px;
+    height: 48px;
+    background: white;
+    border-radius: 100%;
+}
+.heart{
+    position: absolute;
+    top: 35px;
+    right: 50px;
+}
+svg{
+    width: 20px;
+    height: 18px;
+}
+.likes{
+    color: #DBE2E5;
+}
+.red{color: #FF6363;}
+.Recipes{
+    margin-bottom: 143px;
+}
+.top{
+    margin-bottom: 96px;
+}
+.heading{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.paregraph{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    max-width: 706px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.bg{
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+    min-width: 400px;
+    padding-top: 10px;   
+}
+.img{
+    text-align: center;
+    position: relative;
+ }
+.content{
+    margin: 24px 24px 32px 24px;
+}
+.card-heading{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    max-width: 352px;
+    margin-bottom: 24px;
+}
+.wrapper{
+    display: flex;
+    gap: 16px;
+}
+.stat{
+    padding: 8px 16px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.none{
+    background: none;
+    padding: 0;
+}
+.space{
+    gap: 24px;
+}
+.bg-none{
+    background: none;
+    border-radius: 0;
+    padding-top: 0;
+}
+.text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+@media only screen and (max-width:768px){
+    .Recipes{
+        margin-bottom: 50px;
+    }
+    .top{
+        padding: 10px;
+    }
+    .heading{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .paregraph{
+        font-size: 12px;
+        line-height: 20px;
+        max-width: 400px;
+    }
+    .bottom{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:1280px){
+    .bottom{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .top{
+        margin-bottom: 10px;
+    }
+    .bottom .bg{
+        margin: 0px 10px;
+        min-width: 280px;
+    }
+    .recipy-img{
+        max-width: 350px;
+    }
+}
+@media only screen and (max-width:320px){
+    .recipy-img{
+        max-width: 280px;
+    }
+}

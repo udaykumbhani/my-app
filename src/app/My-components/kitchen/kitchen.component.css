@@ -1,0 +1,94 @@
+.kitchen{
+    margin-bottom: 160px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    margin-top: 169px;
+    margin-right: 44px;
+}
+.heading{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin-bottom: 24px;
+    
+}
+.paregraph{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 72px;
+    max-width: 508px;
+}
+.btn{
+    font-family: 'Inter', sans-serif;
+    display: inline-flex;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding: 21px 53px 22px 52px;
+    background: #000000;
+    border-radius: 16px;    
+}
+
+
+@media only screen and (max-width:1280px) {
+    .content{
+        margin-right: 0px;
+    }
+    .heading{
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .paregraph{
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media only screen and (max-width:992px) {
+    .kitchen{
+        margin-bottom: 50px;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .content{
+        margin-top: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .paregraph{
+        margin: 0 auto;
+    }
+    .btn{
+        margin-top: 15px;
+    }
+    .background{
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    img{
+        max-width: 300px;
+    }
+    .paregraph{
+        max-width: 300px;
+    }
+}

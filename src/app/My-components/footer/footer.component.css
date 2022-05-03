@@ -1,0 +1,110 @@
+span{
+    color: #FF6363;
+}
+.footer .ft-top ul li:first-child{
+    margin-left: 0px;
+}
+
+.ft-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 48px;
+    margin-bottom: 48px;
+}
+.ft-logo{
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.ft-paregraph{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-left: 60px;
+}
+.ft-link{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    transition: all 0.4s;
+}
+.ft-link:hover{
+    color: #FF6363;
+}
+.ft-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+.copyright{
+    margin: 0 auto;
+}
+.foot{
+    font-family: 'EudoxusSans-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+}
+.ft-icon .icon{
+    margin-left: 40px;}
+   
+    i{color: black;}
+
+@media only screen and (max-width:992px) {
+    .ft-top{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ft-left{
+        text-align: center;
+    }
+    .ft-right{
+        margin-top: 15px;
+    }
+}
+@media only screen and (max-width:576px) {
+    .ft-paregraph{
+        max-width: 300px;
+    }
+    ul{
+    flex-direction: column;
+    }
+    li{
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .ft-bottom{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .copyright{
+        margin-bottom: 10px;
+    }
+    .foot{
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
